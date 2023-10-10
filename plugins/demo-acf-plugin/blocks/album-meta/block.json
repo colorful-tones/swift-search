@@ -1,0 +1,16 @@
+{
+    "name": "acf/album-meta",
+    "title": "Album Details",
+    "description": "Display an album's meta info.",
+    "category": "formatting",
+    "icon": "album",
+    "keywords": ["release", "date", "label"],
+    "acf": {
+        "renderTemplate": "render.php",
+        "postType": "album",
+        "mode": "preview"
+    },
+    "supports": {
+        "mode": false
+    }
+}

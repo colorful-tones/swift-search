@@ -1,0 +1,15 @@
+{
+    "name": "acf/song-lyrics",
+    "title": "Song Lyrics",
+    "description": "Display song lyrics.",
+    "category": "formatting",
+    "icon": "format-audio",
+    "keywords": ["song", "lyrics"],
+    "acf": {
+        "renderTemplate": "render.php"
+    },
+    "usesContext": [ "postId", "postType", "queryId" ],
+    "supports": {
+        "anchor": true
+    }
+}

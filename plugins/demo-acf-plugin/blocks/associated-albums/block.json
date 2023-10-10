@@ -1,0 +1,11 @@
+{
+    "name": "acf/associated-albums",
+    "title": "Associated Albums",
+    "description": "Display the albums this song is associated with.",
+    "category": "formatting",
+    "icon": "format-audio",
+    "acf": {
+        "renderTemplate": "render.php"
+    },
+    "usesContext": [ "postId", "postType" ]
+}

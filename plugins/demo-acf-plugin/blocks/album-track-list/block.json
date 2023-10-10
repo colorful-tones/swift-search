@@ -1,0 +1,17 @@
+{
+    "name": "acf/album-track-list",
+    "title": "Track List",
+    "description": "Display an album's track list.",
+    "category": "formatting",
+    "icon": "album",
+    "keywords": ["track", "list"],
+    "acf": {
+        "renderTemplate": "render.php",
+        "postType": "album",
+        "mode": "preview"
+    },
+    "usesContext": [ "postId" ],
+    "supports": {
+        "mode": false
+    }
+}

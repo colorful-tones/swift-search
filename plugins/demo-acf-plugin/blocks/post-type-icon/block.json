@@ -1,0 +1,12 @@
+{
+    "name": "acf/post-type-icon",
+    "title": "Post Type Icon",
+    "description": "Display an icon per post type.",
+    "category": "formatting",
+    "icon": "drumstick",
+    "keywords": ["icon"],
+    "acf": {
+        "renderTemplate": "render.php"
+    },
+    "usesContext": [ "postId", "postType" ]
+}
