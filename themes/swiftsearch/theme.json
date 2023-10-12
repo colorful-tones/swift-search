@@ -1,14 +1,6 @@
 {
 	"customTemplates": [
 		{
-			"name": "blank",
-			"title": "Blank"
-		},
-		{
-			"name": "no-title",
-			"title": "No Title"
-		},
-		{
 			"name": "archive-album",
 			"postTypes": [
 				"album"
@@ -21,6 +13,13 @@
 				"song"
 			],
 			"title": "Single Song"
+		},
+		{
+			"name": "taxonomy-album-type",
+			"postTypes": [
+				"album"
+			],
+			"title": "Album Type"
 		}
 	],
 	"settings": {
@@ -916,6 +915,11 @@
 			"area": "header",
 			"name": "header",
 			"title": "Header"
+		},
+		{
+			"area": "header",
+			"name": "header-with-search",
+			"title": "Header with Search"
 		},
 		{
 			"area": "footer",

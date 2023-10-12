@@ -1,14 +1,11 @@
 <?php
 /**
- * Title: front-page
- * Slug: swiftsearch/front-page
+ * Title: Search CTA
+ * Slug: swiftsearch/search-cta
  * Categories: hidden
  * Inserter: no
  */
 ?>
-<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"backgroundColor":"secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-secondary-background-color has-background"><!-- wp:template-part {"slug":"header-copy","align":"wide"} /--></div>
-<!-- /wp:group -->
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"primary","textColor":"base","layout":{"type":"constrained"}} -->
 <main class="wp-block-group has-base-color has-primary-background-color has-text-color has-background has-link-color" style="margin-top:0"><!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/230705143236-01-taylor-swift-uncruel-summer-restricted.webp","id":259,"dimRatio":90,"overlayColor":"secondary","focalPoint":{"x":0.68999999999999995,"y":0.23000000000000001},"minHeight":100,"minHeightUnit":"vh","align":"full","style":{"color":{"duotone":"var:preset|duotone|black-and-white"}},"className":"new-min-height","layout":{"type":"constrained"}} -->
@@ -25,5 +22,3 @@
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></main>
 <!-- /wp:group -->
-
-<!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer"} /-->

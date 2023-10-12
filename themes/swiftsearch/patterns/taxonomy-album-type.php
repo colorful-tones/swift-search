@@ -6,9 +6,6 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"style":{"position":{"type":"sticky","top":"0px"}},"backgroundColor":"secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-secondary-background-color has-background"><!-- wp:template-part {"slug":"header","area":"header","align":"wide"} /--></div>
-<!-- /wp:group -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Taylor-Swift.webp","id":261,"dimRatio":90,"overlayColor":"secondary","focalPoint":{"x":0.46000000000000002,"y":0.17000000000000001},"style":{"color":{"duotone":"var:preset|duotone|secondary-and-white"},"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
 <div class="wp-block-cover" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-90 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-261" alt="" src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/Taylor-Swift.webp" style="object-position:46% 17%" data-object-fit="cover" data-object-position="46% 17%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|large"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
@@ -33,5 +30,3 @@
 <!-- /wp:query --></main>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->
-
-<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
